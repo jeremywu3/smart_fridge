@@ -1,0 +1,28 @@
+.btn {
+
+  background: transparent;
+  font-size: -rem(10px);
+  font-size: 2.0cm;     /*文字大小*/
+  letter-spacing: 0.3em;   /*文字間距*/
+  color: rgba(223,190,106,0.7); /*顏色*/
+  border-radius: 0;
+  padding: 18px 80px 20px;
+  width: 400px;
+  height: 100px;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  background: -webkit-linear-gradient(180deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(0,0,0,0), rgba(0,0,0,0));
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(0,0,0,0), rgba(0,0,0,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: -rem(10px);
+  border: none;
+  border: 1px solid rgba(223,190,106,0.3);
+}
+.btn:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color: $white;
+  background-position: 99% 50%;
+}
